@@ -22,7 +22,8 @@ window.addEventListener('DOMContentLoaded', () => {
         requestAnimationFrame(render);
     };
 
-    nodes.toggleSound.addEventListener('click', () => {
+    nodes.toggleSound.addEventListener('click', (e) => {
+        e.preventDefault();
         clockSound.toggleSound();
     });
 
