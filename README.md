@@ -1,10 +1,10 @@
 # Metric Clock
 
-I would like time to be metric. 
+I want time to be metric. 
 
 The day is 10 hours. The hour is 100 minutes. The minute is 100 seconds.
 
-You could have time looking like that `4.8799` (h.mmss).
+You could have time looking like `4.8799` (h.mmss).
 
 See it [in action](https://clock.pp.ua).
 
