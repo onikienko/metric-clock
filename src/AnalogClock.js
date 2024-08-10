@@ -40,6 +40,12 @@ export class AnalogClock {
         this.#ctx.fillStyle = '#333';
         this.#ctx.fill();
 
+        this.#drawFaceLines(20, this.#radius * 0.865, {
+            strokeStyle: '#515658',
+            lineWidth: 1,
+            lineCap: 'round',
+        }, 5);
+
         this.#drawFaceLines(10, this.#radius * 0.86, {
             strokeStyle: '#515658',
             lineWidth: 2,
